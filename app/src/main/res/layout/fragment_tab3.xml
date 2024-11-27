@@ -5,10 +5,32 @@
     android:layout_height="match_parent"
     tools:context=".Tab3">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <!-- Bố cục dọc để chứa 2 TextView -->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical"
+        android:gravity="center">
 
+        <!-- TextView hiển thị tên -->
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên: Le Duy"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:gravity="center" />
+
+        <!-- TextView hiển thị mã -->
+        <TextView
+            android:id="@+id/tv_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã: 22115053122206"
+            android:textSize="20sp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center" />
+    </LinearLayout>
 </FrameLayout>

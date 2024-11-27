@@ -20,7 +20,7 @@ public class MainActivity2 extends AppCompatActivity {
                     .commit();
         }
 
-        // Cài đặt sự kiện cho BottomNavigationView
+
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
         bottomNavigationView.setOnItemSelectedListener(item -> {
             Fragment selectedFragment = null;
